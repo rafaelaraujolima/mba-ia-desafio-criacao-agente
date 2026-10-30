@@ -1,0 +1,16 @@
+[project]
+name = "aurora-assistente"
+version = "0.1.0"
+description = "Assistente virtual do Residencial Aurora (Google ADK)"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk[db]==2.2.0",
+    "fastapi",
+    "uvicorn",
+    "aiosqlite",
+    "greenlet",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
